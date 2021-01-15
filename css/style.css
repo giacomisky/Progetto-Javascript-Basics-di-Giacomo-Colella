@@ -1,0 +1,97 @@
+@media screen and (max-width: 420px){
+  .main-cont{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .count-cont{
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .count-cont h1{
+    font-size: 120px;
+    color: white;
+  }
+
+  .but-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 421px){
+  .main-cont{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .count-cont{
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .count-cont h1{
+    font-size: 120px;
+    color: white;
+  }
+
+  .but-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (min-width: 961px){
+  .main-cont{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .count-cont{
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .count-cont h1{
+    font-size: 120px;
+    color: white;
+  }
+
+  .but-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: auto;
+    padding: 20px;
+  }
+
+}

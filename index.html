@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-cont">
+      <div class="count-cont">
+        <h1 id='counter'>0</h1>
+      </div>
+      <div class="but-cont">
+          <button class="ui blue massive circular minus icon button" onclick="decrement();">
+            <i class="minus icon"></i>
+          </button>
+          <button class="ui red massive circular plus icon button" onclick="increment();">
+            <i class="plus icon"></i>
+          </button>
+      </div>
+    </div>
+
+  </body>
+  <script type="text/javascript">
+    function increment(){
+      let node = document.getElementById('counter');
+      let count = Number(node.textContent);
+      node.textContent = count+1;
+    }
+
+    function decrement(){
+      let node = document.getElementById('counter');
+      let count = Number(node.textContent);
+      node.textContent = count-1;
+    }
+  </script>
+</html>
